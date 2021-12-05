@@ -1,9 +1,4 @@
-channels:
-  - conda-forge
-dependencies:
-  - matplotlib
-  - numpy
-  - ipywidgets
-  - sympy
-  - pip:
-    - ipympl
+matplotlib==3.1.3
+numpy==1.21.2
+sympy==1.4
+mpmath==1.2.1
