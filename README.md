@@ -2,4 +2,7 @@
 
 # Analyse Numérique
 
-### Objectifs du TPs
+### Sommaire:
+#### TP1 
+#### TP2
+#### TP3
