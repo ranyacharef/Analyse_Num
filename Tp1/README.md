@@ -26,11 +26,11 @@ Son intersection avec l'axe des abscisses fournit une approximation de la soluti
 A nouveau, on renouvelle le procédé jusqu'à obtenir une approximation suffisante, d'où:<br/>
 x<sub>0</sub> étant donné <br/>
 Pour n = 0, 1, 2, ... <br/>
-x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).
+x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).</br>
 Son avantage :</br>
-    converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.</br>
+    Converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.</br>
 Son inconvenient :</br>
-    Demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.</br>
+    Demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.</br>
 
 ## La méthode de Newton :
 Elle consiste à d'abord remplacer l'équation <br/>
@@ -45,12 +45,12 @@ Pour n = 0, 1, 2, ...<br/>
 xn+1 = g (xn).
 Cette méthode est justifiée par la :<br/>
 Proposition : Soit g : [a, b] → [a, b] continue et x<sub>0</sub> ∈ [a, b] . Si x<sub>n</sub> converge vers x<sub>∞</sub>, alors <br/>
-x<sub>∞</sub> = g (x<sub>∞</sub>).
+x<sub>∞</sub> = g (x<sub>∞</sub>).</br>
 Avantages :</br>
-   converge rapidement quand elle converge (ce qui compense largement le dernier inconvénient)</br>
-   relativement stable et peu sensible aux erreurs d'arrondis si f′(x∞) n'est pas trop petit.</br>
+  Converge rapidement quand elle converge (ce qui compense largement le dernier inconvénient)</br>
+  Relativement stable et peu sensible aux erreurs d'arrondis si f′(x∞) n'est pas trop petit.</br>
 Inconvénients :</br>
-   peut diverger ou converger vers un autre zéro que celui cherché si la donnée initiale est mal choisie</br>
-   nécessite le calcul de la dérivée d'une fonction, ce qui est numériquement difficile sinon ne la connait pas explicitement</br>
-   chaque étape nécessite deux évaluations de fonctions.</br>
+  Peut diverger ou converger vers un autre zéro que celui cherché si la donnée initiale est mal choisie</br>
+  Nécessite le calcul de la dérivée d'une fonction, ce qui est numériquement difficile sinon ne la connait pas explicitement</br>
+  Chaque étape nécessite deux évaluations de fonctions.</br>
 ## Comparaison :
