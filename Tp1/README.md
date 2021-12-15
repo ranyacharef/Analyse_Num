@@ -16,6 +16,7 @@ soit par récurrence <img src="https://render.githubusercontent.com/render/math?
 Il en résulte que cette méthode est toujours convergente puisque a<sub>n</sub> − b<sub>n</sub> tend vers 0 quand
 n tend vers l'infini. On peut choisir le temps d'arrêt N pour que : <br/>
 >  <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2^n}(a_0-b_0)"> < ε = précision choisie.
+>  
            -------------------------------------------------------------------------------------------------------------------------------------
 Son avantage : elle ne demande que peu d’hypoth`ese sur f (seulement la continuit´e).
 Son inconvenient : elle n’est pas tr`es rapide. D’autre part elle n´ecessite de d´eterminer le
@@ -30,6 +31,7 @@ A nouveau, on renouvelle le procédé jusqu'à obtenir une approximation suffisa
 x<sub>0</sub> étant donné <br/>
 Pour n = 0, 1, 2, ... <br/>
 x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).
+
          -------------------------------------------------------------------------------------------------------------------------------------
 Son avantage : elle converge tr`es rapidement : approximativement, le nombre de d´ecimales
 exactes double `a chaque it´eration.
