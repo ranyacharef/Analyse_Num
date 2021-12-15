@@ -15,7 +15,7 @@ On a :<img src="https://render.githubusercontent.com/render/math?math=a_n_%2B_1-
 soit par récurrence <img src="https://render.githubusercontent.com/render/math?math=a_n-b_n=\frac{1}{2^n}(a_0-b_0)"><br/>
 Il en résulte que cette méthode est toujours convergente puisque a<sub>n</sub> − b<sub>n</sub> tend vers 0 quand
 n tend vers l'infini. On peut choisir le temps d'arrêt N pour que : <br/>
->  <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2^n}(a_0-b_0)"> < ε = précision choisie.
+>  <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2^n}(a_0-b_0)"> < ε = précision choisie.</br>
 Son avantage : elle ne demande que peu d’hypothese sur f (seulement la continuite).</br>
 Son inconvenient : elle n’est pas tres rapide. D’autre part elle n´ecessite de determiner le signe des f(an) et f(bn) et donc de calculer une valeur approchee de ces valeurs proches de 0 suffisamment precise.</br>
 
@@ -27,8 +27,10 @@ A nouveau, on renouvelle le procédé jusqu'à obtenir une approximation suffisa
 x<sub>0</sub> étant donné <br/>
 Pour n = 0, 1, 2, ... <br/>
 x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).
-Son avantage : elle converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.
-Son inconvenient : elle demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
+Son avantage :</br>
+    converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.</br>
+Son inconvenient :</br>
+    Demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.</br>
 
 ## La méthode de Newton :
 Elle consiste à d'abord remplacer l'équation <br/>
@@ -43,4 +45,12 @@ Pour n = 0, 1, 2, ...<br/>
 xn+1 = g (xn).
 Cette méthode est justifiée par la :<br/>
 Proposition : Soit g : [a, b] → [a, b] continue et x<sub>0</sub> ∈ [a, b] . Si x<sub>n</sub> converge vers x<sub>∞</sub>, alors <br/>
-x<sub>∞</sub> = g (x<sub>∞</sub>).## Comparaison :
+x<sub>∞</sub> = g (x<sub>∞</sub>).
+Avantages :</br>
+   converge rapidement quand elle converge (ce qui compense largement le dernier inconvénient)</br>
+   relativement stable et peu sensible aux erreurs d'arrondis si f′(x∞) n'est pas trop petit.</br>
+Inconvénients :</br>
+   peut diverger ou converger vers un autre zéro que celui cherché si la donnée initiale est mal choisie</br>
+   nécessite le calcul de la dérivée d'une fonction, ce qui est numériquement difficile sinon ne la connait pas explicitement</br>
+   chaque étape nécessite deux évaluations de fonctions.</br>
+## Comparaison :
