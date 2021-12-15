@@ -1,4 +1,4 @@
-# Projet 
+# Projet : Application Desktop
  #### Il y a un petit probleme dans la version de Tkinter PS: Ce projet fonctionne parfaitement sur ma machine
 - [Introduction](#Introduction)
 - [Démonstration](#Démonstration)
