@@ -29,8 +29,8 @@ x<sub>0</sub> étant donné <br/>
 Pour n = 0, 1, 2, ... <br/>
 x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).
 
-** Son avantage : elle converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.
-** Son inconvenient : elle demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
+ -Son avantage : elle converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.
+ -Son inconvenient : elle demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
 
 ## La méthode de Newton :
 Elle consiste à d'abord remplacer l'équation <br/>
