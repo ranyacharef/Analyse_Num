@@ -16,8 +16,8 @@ soit par récurrence <img src="https://render.githubusercontent.com/render/math?
 Il en résulte que cette méthode est toujours convergente puisque a<sub>n</sub> − b<sub>n</sub> tend vers 0 quand
 n tend vers l'infini. On peut choisir le temps d'arrêt N pour que : <br/>
 >  <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2^n}(a_0-b_0)"> < ε = précision choisie.
-Son avantage : elle ne demande que peu d’hypothese sur f (seulement la continuite).
-Son inconvenient : elle n’est pas tres rapide. D’autre part elle n´ecessite de determiner le signe des f(an) et f(bn) et donc de calculer une valeur approchee de ces valeurs proches de 0 suffisamment precise.
+Son avantage : elle ne demande que peu d’hypothese sur f (seulement la continuite).</br>
+Son inconvenient : elle n’est pas tres rapide. D’autre part elle n´ecessite de determiner le signe des f(an) et f(bn) et donc de calculer une valeur approchee de ces valeurs proches de 0 suffisamment precise.</br>
 
 ## La méthode de point fixe :
 Soit, la droite d'équation :
