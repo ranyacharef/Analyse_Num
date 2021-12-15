@@ -16,9 +16,9 @@ soit par récurrence <img src="https://render.githubusercontent.com/render/math?
 Il en résulte que cette méthode est toujours convergente puisque a<sub>n</sub> − b<sub>n</sub> tend vers 0 quand
 n tend vers l'infini. On peut choisir le temps d'arrêt N pour que : <br/>
 >  <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2^n}(a_0-b_0)"> < ε = précision choisie.
-           -------------------------------------------------------------------------------------------------------------------------------------
-Son avantage : elle ne demande que peu d’hypoth`ese sur f (seulement la continuit´e).
-Son inconvenient : elle n’est pas tr`es rapide. D’autre part elle n´ecessite de d´eterminer le signe des f(an) et f(bn) et donc de calculer une valeur approch´ee de ces valeurs proches de 0 suffisamment precise.
+           
+** Son avantage : elle ne demande que peu d’hypoth`ese sur f (seulement la continuit´e).
+** Son inconvenient : elle n’est pas tr`es rapide. D’autre part elle n´ecessite de d´eterminer le signe des f(an) et f(bn) et donc de calculer une valeur approch´ee de ces valeurs proches de 0 suffisamment precise.
 
 ## La méthode de point fixe :
 Soit, la droite d'équation :
@@ -29,10 +29,9 @@ x<sub>0</sub> étant donné <br/>
 Pour n = 0, 1, 2, ... <br/>
 x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).
 
-         -------------------------------------------------------------------------------------------------------------------------------------
-Son avantage : elle converge tr`es rapidement : approximativement, le nombre de d´ecimales
-exactes double `a chaque it´eration.
-Son inconvenient : elle demande plus d’hypoth`eses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
+** Son avantage : elle converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.
+** Son inconvenient : elle demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
+
 ## La méthode de Newton :
 Elle consiste à d'abord remplacer l'équation <br/>
 (∗) f (x) = 0 <br/>
@@ -47,4 +46,3 @@ xn+1 = g (xn).
 Cette méthode est justifiée par la :<br/>
 Proposition : Soit g : [a, b] → [a, b] continue et x<sub>0</sub> ∈ [a, b] . Si x<sub>n</sub> converge vers x<sub>∞</sub>, alors <br/>
 x<sub>∞</sub> = g (x<sub>∞</sub>).## Comparaison :
-
