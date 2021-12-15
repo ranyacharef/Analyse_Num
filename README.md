@@ -21,5 +21,5 @@ Dans ce TP,on cherche à remplacer ou à approcher la fonction f par une fonctio
 Le TP3 consiste à calculer d'une façon approchée une dérivée et décrire les méthodes de base pour le calcul numérique d'intégrales. 
 - [Tp3](Tp3)
 ## Projet :
-- [Tp3](Tp3)
+- [projet](projet)
 - <img src="https://github.com/SarahSabbagh/Analyse_Num/blob/main/projet/img/demo.gif" alt="démonstration" width="800" height="400">
