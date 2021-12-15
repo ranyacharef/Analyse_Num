@@ -53,4 +53,3 @@ Inconvénients :</br>
   Peut diverger ou converger vers un autre zéro que celui cherché si la donnée initiale est mal choisie</br>
   Nécessite le calcul de la dérivée d'une fonction, ce qui est numériquement difficile sinon ne la connait pas explicitement</br>
   Chaque étape nécessite deux évaluations de fonctions.</br>
-## Comparaison :
