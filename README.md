@@ -1,9 +1,9 @@
 # Analyse numérique [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ranyacharef/Analyse_Num.git/HEAD)
 - [Introduction](#Introduction)
-- [Tp1](#Tp1)
-- [Tp2](#Tp2)
-- [Tp3](#Tp3)
-- [projet](#projet)
+- [Tp1](/Tp1)
+- [Tp2](/Tp2)
+- [Tp3](/Tp3)
+- [projet](/projet)
 ## Introduction :
 L’analyse numérique est une discipline à l'interface des mathématiques et de l'informatique. Elle s’intéresse tant aux fondements qu’à la mise en pratique des méthodes permettant de résoudre, par des calculs purement numériques, des problèmes d’analyse mathématique.
 ## TP1 :
