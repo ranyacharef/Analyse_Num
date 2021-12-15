@@ -1,4 +1,5 @@
-# Analyse numérique [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ranyacharef/Analyse_Num/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ranyacharef/Analyse_Num/HEAD)
+# Analyse numérique 
 - [Introduction](#Introduction)
 - [Tp1](/Tp1)
 - [Tp2](/Tp2)
