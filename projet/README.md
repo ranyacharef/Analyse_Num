@@ -2,7 +2,7 @@
 - [Introduction](#Introduction)
 - [Démonstration](#Démonstration)
 - [Méthode :](#Méthode) <br/>
--[réctangles ](#réctangles ) <br/>
+-[Réctangles ](#réctangles ) <br/>
 -[trapèzes](#trapèzes)<br/>
 -[Simpson ](#Simpson)
 ## Introduction :
