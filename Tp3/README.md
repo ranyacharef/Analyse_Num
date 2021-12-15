@@ -1,8 +1,8 @@
 # Tp3 Intégration Numérique
 - [Introduction](#Introduction)
 - [Méthode :](#Méthode) <br/>
--[réctangles ](#réctangles ) <br/>
--[trapèzes](#trapèzes)<br/>
+-[Réctangles ](#réctangles ) <br/>
+-[Trapèzes](#trapèzes)<br/>
 -[Simpson ](#Simpson)
 ## Introduction :
 Supposons qu'on veuille intégrer une fonction f(x) sur un intervalle [a,b]. Puisque
@@ -13,7 +13,7 @@ prendre les sous-intervalles suffisamment petits.
 Découpons donc l'intervalle [a, b] en n sous-intervalles [x<sub>i-1</sub>,x<sub>i</sub>] de largeur : <br/>
 <img src="https://render.githubusercontent.com/render/math?math=d(x)=\displaystyle\frac{(b-a)}{n}">
 ## Méthode :
-#### -réctangles :
+#### Réctangles :
 Le principe de cette technique est illustré dans la figure (3.1)
 L’expression de l’intégrale devient :<br/>
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle I=\frac{h}{2}\sum_{i=1}^{n} f(x_{i%2B1} + x_i)f(x_i)"> <br/>
@@ -22,14 +22,14 @@ L’expression de l’intégrale devient dans ce cas : <br/>
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle I=\frac{h}{2}\sum_{i=1}^{n} f(\frac{x_{i%2B1} + x_i}{x_i})"><br/>
 <img src="https://github.com/SarahSabbagh/Analyse_Num/blob/main/Tp3/img/Rectangle.gif" alt="Méthode de rectangle" width="800" height="400">
 
-#### -trapèzes :
+#### Trapèze :
 Le principe de l’approximation d’une intégrale par la méthode des trapèzes est
 illustré dans la figure(III.2).
 La formule générale de l’intégrale par la méthode des trapèzes s’écrit :<br/>
 <img src="https://render.githubusercontent.com/render/math?math=\displaystyle I=\frac{h}{2}\sum_{i=1}^{n} (f(x_{i%2B1}) + f(x_i))"><br/>
 <img src="https://github.com/SarahSabbagh/Analyse_Num/blob/main/Tp3/img/Trapéze.gif" alt="Méthode de trapéze" width="800" height="400">
 
-#### -Simpson :
+#### Simpson :
 Le principe de l’approximation d’une intégrale par la méthode de Simpson est
 illustré dans la figure ci-dessous :
 Figure III.3 : Principe de la méthode de Simpson
