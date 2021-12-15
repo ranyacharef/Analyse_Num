@@ -17,8 +17,8 @@ Il en résulte que cette méthode est toujours convergente puisque a<sub>n</sub>
 n tend vers l'infini. On peut choisir le temps d'arrêt N pour que : <br/>
 >  <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{2^n}(a_0-b_0)"> < ε = précision choisie.
            
-  -Son avantage : elle ne demande que peu d’hypothese sur f (seulement la continuite).
-  -Son inconvenient : elle n’est pas tres rapide. D’autre part elle n´ecessite de determiner le signe des f(an) et f(bn) et donc de calculer une valeur approchee de ces valeurs proches de 0 suffisamment precise.
+  *Son avantage : elle ne demande que peu d’hypothese sur f (seulement la continuite).
+  *Son inconvenient : elle n’est pas tres rapide. D’autre part elle n´ecessite de determiner le signe des f(an) et f(bn) et donc de calculer une valeur approchee de ces valeurs proches de 0 suffisamment precise.
 
 ## La méthode de point fixe :
 Soit, la droite d'équation :
@@ -29,8 +29,8 @@ x<sub>0</sub> étant donné <br/>
 Pour n = 0, 1, 2, ... <br/>
 x<sub>n+1</sub> = x<sub>n</sub> −f(x<sub>n</sub>)/f′(x<sub>n</sub>).
 
- -Son avantage : elle converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.
- -Son inconvenient : elle demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
+ *Son avantage : elle converge tres rapidement : approximativement, le nombre de decimales exactes double a chaque iteration.
+ *Son inconvenient : elle demande plus d’hypotheses sur f : Nous allons demander que f soitde classe C2 sur un intervalle I = [a, b] et que f′et f′′ gardent un signe constant sur cet intervalle. On demande de plus que f(a) et f(b) soient de signes contraires.
 
 ## La méthode de Newton :
 Elle consiste à d'abord remplacer l'équation <br/>
