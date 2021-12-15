@@ -1,10 +1,8 @@
 ## Interpolation et approximation polynômiale
 ### **Polynome d'interpolation de Lagrange**
-Étant donné une fonction f
 
-Soient  <img src="https://render.githubusercontent.com/render/math?math=x_0, x_1,">....<img src="https://render.githubusercontent.com/render/math?math=,x_N "> 2 à 2 distincts .
-
-L’objectif de ce TP : est d’interpoler f aux nœuds <img src="https://render.githubusercontent.com/render/math?math=x_0, x_1,">....<img src="https://render.githubusercontent.com/render/math?math=,x_N "> par un polynôme p .
+L’objectif de ce TP :</br>
+Interpoler f aux nœuds <img src="https://render.githubusercontent.com/render/math?math=x_0, x_1,">....<img src="https://render.githubusercontent.com/render/math?math=,x_N "> par un polynôme p .
 
 Ce polynôme s’appelé le polynôme d’interpolation de Lagrange
  
